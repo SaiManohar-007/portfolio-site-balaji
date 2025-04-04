@@ -1,0 +1,105 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+    margin:80px 170px;
+}
+
+.projects-title{
+
+    position: relative;
+}
+
+.projects-title h1{
+    padding: 0 30px; 
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.projects-title img{
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+.projects-showcase{
+    display: flex;
+    gap: 60px;
+    text-align: center;
+}
+.projects-two img, .projects-one img{
+    margin-top: 45px;
+    width: 550px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 3px solid #B415FF;
+    transition: 0.3s;
+}
+.projects-two img:hover, .projects-one img:hover{
+    border: 3px solid #DF8908;
+    transform: scale(1.05);
+}
+
+.projects-one h1, .projects-two h1{
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.projects-one h1:hover, .projects-two h1:hover{
+    background: linear-gradient(270deg, #B415FF 10%, #DF8908 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.projects-one p span , .projects-two p span {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projects-one p, .projects-two p{
+    text-align: center;
+    font-size: 24px;
+    /* margin-bottom: 20px; */
+}
+
+.projects-one a, .projects-two a:hover{
+    cursor: pointer;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:768px){
+    .projects{
+        gap: 80px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+    .projects-title h1{
+        font-size: 50px;
+        padding: 0;
+    }
+    .projects-title img{
+        width: 130px;
+        right: -20px;
+    }
+    .projects-showcase{
+        flex-direction: column;
+    }
+    .projects-showcase img{
+        width: 300px;
+    }
+}
+
+
+
+
