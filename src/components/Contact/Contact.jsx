@@ -63,7 +63,7 @@ const Contact = () => {
 
                 </form>
             </div>
-            <h3>Made By Sai Manohar. <br /> Reach me out at saimanohar.velaga007@gmail.com <br /> <a href="">github:</a></h3>
+            <h3>Made By Sai Manohar. <br /> Reach me out at saimanohar.velaga007@gmail.com <br /> <a href="https://github.com/SaiManohar-007">github</a></h3>
             
         </div>
     )
